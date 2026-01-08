@@ -9,7 +9,8 @@
    #063d1e
 
 */
-* {
+
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -37,7 +38,7 @@
 } 
 
 body {
-    background-color: var(--cor0);
+    background-color: rgb(9, 255, 0);
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -58,7 +59,7 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor5);
+    background-color: var(--cor3);
     word-spacing: 50px; /*Espaçamento entre palavras*/
     padding: 10px;
     border-top: 3px solid black;
