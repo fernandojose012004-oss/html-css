@@ -59,10 +59,13 @@ header > h1 {
 header > p {
     color: white;
     margin-bottom: 5px;
+    text-indent: 15px;
+    font-family: Helvetica;
+    font-weight: bolder;
 }
 
 nav {
-    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor1));
     word-spacing: 50px; /*Espaçamento entre palavras*/
     padding: 5px;
     margin-top: 2px;
