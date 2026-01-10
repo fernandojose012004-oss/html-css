@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+}
+
+
+body {
+
+    background-color: antiquewhite;
+}
+
+header {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 15px 15px 15px rgb(202, 96, 96);
+}
+
+header > p {
+background-color: aquamarine;
+position: relative;
+    display: inline-flex;
+    margin: 0px;
+    left: -50px;
+    border-radius: 20px;
+    color: rgb(14, 14, 14);
+    box-shadow: 0.5px 5px 1px white;
+    left: -100px;
+    top: -5px;
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 5px;
+    width: 40%;
+    padding: 10px;
+
+}
+
+.img1 {
+ background-image: url(background001.jpg);
+ width: 100vh;
+ height: 300px;
+ padding: 10px 10px 5px;
+ background-position: right center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.img1 > p {
+font-size: 18px;
+    color: rgb(254, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.301);
+position: absolute;
+top: 300px;
+left: 20px;
+border-radius: 5px;
+height: 150px;
+box-shadow: 15px 15px 15px;
+}
+
+.img2 {
+ background-image: url(background002.jpg);
+ width: 100vh;
+
+padding: 10px 10px 5px;
+ height: 300px;
+ padding: 10px 10px 5px;
+ background-position: right center;
+ background-size: cover;
+ background-attachment: fixed;
+color: rgb(255, 255, 255);}
+
+.img2 > p {
+font-weight: bolder;
+    background-color: rgba(32, 31, 31, 0.301);
+position: absolute;
+top: 990px;
+left: 30px;
+width: 250px;
+height: 150px;
+padding-top: 40px;
+border-radius: 5px;
+box-shadow: 15px 15px 15px;
+}
+
