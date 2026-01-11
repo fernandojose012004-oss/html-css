@@ -1,11 +1,17 @@
-* {
-    margin: 0px;
+ @charset "UTF-8";
+ 
+ 
+ *{ margin: 0px;
+    padding: 0pxpx;
+
 }
 
 
 body {
-
+min-height: 100vh;
     background-color: antiquewhite;
+    margin: 1px;
+
 }
 
 header {
@@ -21,17 +27,18 @@ header {
 
 header > p {
 background-color: aquamarine;
-position: relative;
     display: inline-flex;
-    margin: 0px;
-    left: -50px;
+    margin: 5px;
+    left: -60px;
     border-radius: 20px;
     color: rgb(14, 14, 14);
     box-shadow: 0.5px 5px 1px white;
-    left: -100px;
+    left: -110px;
     top: -5px;
     font-weight: bolder;
     font-size: 14px;
+    position: relative;
+    width: 150px;
 
 }
 
@@ -59,6 +66,7 @@ p {
  background-position: right center;
  background-size: cover;
  background-attachment: fixed;
+ 
 }
 
 .img1 > p {
@@ -68,12 +76,10 @@ font-size: 18px;
     padding-bottom: 40px;
     padding-left: 50px;
     background-color: rgba(255, 255, 255, 0.301);
-position: absolute;
-top: 300px;
-left: 20px;
 border-radius: 5px;
 height: 150px;
 box-shadow: 15px 15px 15px;
+
 }
 
 .img2 {
@@ -91,13 +97,11 @@ color: rgb(255, 255, 255);}
 .img2 > p {
 font-weight: bolder;
     background-color: rgba(32, 31, 31, 0.301);
-position: absolute;
-top: 990px;
-left: 30px;
 width: 250px;
 height: 150px;
 padding-top: 40px;
 border-radius: 5px;
 box-shadow: 15px 15px 15px;
 }
+
 
