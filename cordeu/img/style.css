@@ -15,7 +15,6 @@ min-height: 100vh;
 }
 
 header {
-
     background-color: black;
     color: white;
     text-align: center;
@@ -23,6 +22,7 @@ header {
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 15px 15px 15px rgb(202, 96, 96);
+    background-position: center, center;
 }
 
 header > p {
@@ -60,7 +60,6 @@ p {
 
 .img1 {
  background-image: url(background001.jpg);
- width: 100vh;
  height: 300px;
  padding: 10px 10px 5px;
  background-position: right center;
@@ -84,8 +83,6 @@ box-shadow: 15px 15px 15px;
 
 .img2 {
  background-image: url(background002.jpg);
- width: 100vh;
-
 padding: 10px 10px 5px;
  height: 300px;
  padding: 10px 10px 5px;
