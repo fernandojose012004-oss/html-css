@@ -1,0 +1,39 @@
+@charset "UTF8";
+
+header {
+
+    background-color: rgb(212, 212, 185);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+
+    text-align: center;
+    color: rgb(25, 167, 167);
+    padding-top: 5px;
+}
+
+menu {
+
+    background-color: bisque;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    display: flex;
+    text-indent: 30px;
+    box-shadow: 2px 2px 2px;
+}
+
+menu a {
+
+    text-decoration: none;
+    color: rgb(55, 0, 255);
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+}
