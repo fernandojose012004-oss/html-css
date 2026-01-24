@@ -11,7 +11,7 @@ header {
 header > h1 {
 
     text-align: center;
-    color: rgb(25, 167, 167);
+    color: rgb(0, 0, 0);
     padding-top: 5px;
 }
 
@@ -29,11 +29,31 @@ menu {
 menu a {
 
     text-decoration: none;
-    color: rgb(55, 0, 255);
+    color: rgb(44, 192, 81);
 
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 240px;
+    text-indent: 30px;
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: cover;
+    position: absolute;
+    left: 310px;
+}
+
+.F {
+    position: absolute;
+    left: 340px;
+    top: 320px;
 }
