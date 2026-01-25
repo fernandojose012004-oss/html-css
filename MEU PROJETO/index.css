@@ -49,6 +49,8 @@ article > img {
     border-radius: 50%;
     display: flex;
     margin-left: 45%;
+    background-size: cover;
+    
     
 }
 

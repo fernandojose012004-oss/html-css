@@ -16,6 +16,12 @@ padding: 0px;
     
 }
 
+::-webkit-scrollbar {
+
+    width: 0px;
+    height: 0px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
@@ -39,7 +45,7 @@ padding: 0px;
 } 
 
 body {
-    background-color: var(--cor3);
+    background-color: rgb(0, 255, 34);
     padding-bottom: 10px;
 
 }
@@ -48,8 +54,11 @@ header {
     max-height: 150px;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
+    padding-right: 20px;
     box-shadow: 2px 2px 2px black;
+    width: 320px;
+    margin: auto;
 }
 header > h1 {
 
@@ -71,10 +80,13 @@ nav {
     margin-top: 2px;
     margin-bottom: 2px;
     border-top: 3px solid black;
-    display: inline-flex;
+    display: flex;
     font-weight: bolder;
     height: 100%;
-    width: 98%;
+    font-size: 13px;
+    width: 335px;
+
+
 
     
 
@@ -168,6 +180,7 @@ main {
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px; /*Só as bordas de baixo*/
     border-bottom-right-radius: 10px; /*Só as bordas de baixo*/
+    width: 30px;
 }
 
 main img {
@@ -198,7 +211,7 @@ footer {background-color: var(--cor5);
     padding: 3px;
     border-radius: 20px;
     text-align: center;
-    width: 90%;
+    width: 60%;
     margin: auto;
     text-align: 10px;
     font-family: Helvetica;
