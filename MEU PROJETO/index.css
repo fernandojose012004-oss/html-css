@@ -28,7 +28,18 @@ nav {
     justify-content: space-between;
     text-indent: 30px;
     box-shadow: 2px 2px 2px;
-    gap: 30px; }
+    gap: 0px;
+   }
+
+@media screen and (max-width: 500px){
+
+    nav { display: flex;
+    flex-direction: column;
+gap: 10px;}
+    
+}
+    
+
     
 
 nav a {
@@ -40,6 +51,7 @@ border-radius: 30px;
 height: 23px;
 color: rgb(115, 255, 0);
 font-weight: bolder;
+
 }
 
 
