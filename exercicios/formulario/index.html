@@ -9,8 +9,8 @@
 
     .circulo {
 
-        width: 340px;
-        height: 340px;
+        width: 320px;
+        height: 320px;
         border-radius: 50%;
         background-color: beige;
         display: flex;
@@ -23,9 +23,9 @@
         box-sizing: border-box;
         margin: auto;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 20%;
+        left: 20%;
+        transform: translate(-20%, -20%);
     }
 
     .formulario {
@@ -40,8 +40,8 @@ font-family: sans-serif;
 
         <h2>Formulario de login.</h2>
 
-        <p> Nome: <input type="text"></p>
-        <p> Crie uma senha: <input type="password"></p>
+        <p> Nome: <input type="text" minlength="3" maxlength="20"></p>
+        <p> Crie uma senha: <input type="password" minlength="8" maxlength="8"></p>
     </form>
     </div>
 </body>
