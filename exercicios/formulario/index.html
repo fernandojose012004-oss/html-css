@@ -17,7 +17,7 @@
         justify-content: center;
         align-items: center;
         font-size: 18px;
-        border: 2px solid #333;
+        border: 2px solid #f5bc00;
         overflow: hidden;
         padding: 20px;
         box-sizing: border-box;
@@ -26,22 +26,50 @@
         top: 20%;
         left: 20%;
         transform: translate(-20%, -20%);
+    
     }
 
     .formulario {
 font-family: sans-serif;
-        color: blue;
+        color: rgb(25, 0, 255);
+    line-height: 25px;
+    font-weight: bolder;
+    }
+
+    .sub {
+
+        background-image: linear-gradient(20deg, red, blue, #444, #764);
+        border: 2px rgb(0, 255, 0) dashed;
+        color: rgb(217, 255, 0);
+        font-weight: bolder;
+        font-size: 17px;
+        display: block;
+        margin: auto;
+        width: 120px;
+        height: 30px;
+
+    }
+
+    h2 {
+
+    text-indent: 10px;
     }
    
 </style>
 <body>
 <div class="circulo">
-    <form action="" method="post" class="formulario">
+    <form action="" method="post" autocomplete="on" method="post" class="formulario">
 
         <h2>Formulario de login.</h2>
+        <!--(required = obrigatorio digitar)
+        placeholder = Nome dentro do campo-->
 
-        <p> Nome: <input type="text" minlength="3" maxlength="20"></p>
-        <p> Crie uma senha: <input type="password" minlength="8" maxlength="8"></p>
+     <p><label for="name"> Nome:</label> <input type="text" minlength="3" maxlength="20" required placeholder="Digite" name="inome" id="name" autocomplete="username"></p>
+
+            <p> <label for="senha">Crie uma senha:</label> <input type="password" minlength="8" maxlength="8" required placeholder="Digite" name="isenha" id="senha" autocomplete="current-password"></p>
+
+     <p><input class="sub" type="submit"></p>
+
     </form>
     </div>
 </body>

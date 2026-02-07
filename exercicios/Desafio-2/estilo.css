@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/*
+   #c5ebd3
+   #83a1ad
+   #3ddc84
+   #2fa866
+   #1a5c37
+   #063d1e
+
+*/
+
+* {
+    margin: 0px;
+padding: 0px;
+    
+}
+
+::-webkit-scrollbar {
+
+    width: 0px;
+    height: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'android';
+    src: url(idroid.otf) format(opentype);
+    font-weight: normal;
+}
+
+:root {
+
+   --cor0:#ebe5c5;
+   --cor1:#83e1ad;
+   --cor3:#18e273;
+   --cor4:#2fa866;
+   --cor5:#1a5c37;
+   --cor6:#063d1e;
+
+   --fonte-padrao: Arial, Verdana;
+   --fonte-destaque:'Babas Neue', cursive;
+   --fonte-android: 'Android';
+} 
+
+body {
+    background-color: rgb(0, 255, 34);
+    padding-bottom: 10px;
+
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    max-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    box-shadow: 2px 2px 2px black;
+    width: 320px;
+    margin: auto;
+}
+header > h1 {
+
+    margin-bottom: 10px;
+
+}
+header > p {
+    color: white;
+    margin-bottom: 5px;
+    text-indent: 15px;
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor1));
+    word-spacing: 50px; /*Espaçamento entre palavras*/
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-top: 3px solid black;
+    display: flex;
+    font-weight: bolder;
+    height: 100%;
+    font-size: 13px;
+    width: 335px;
+
+
+
+    
+
+}
+
+div.video {
+    background-color: var(--cor5);
+    padding: 2px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+div.video > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside {
+
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.37);
+}
+
+aside > ul {
+ list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside; /*Coloca a lista com os pontinhos tentro do aside.*/
+    columns: 2; /*Divide em 2 colunas*/
+}
+
+a.externo::after {
+
+    content: '\00A0\1F517';
+}
+
+aside > h3 {
+    margin: -10px -10px 0px -10px;
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+transition-duration: .5s;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav a:hover {
+background-color: var(--cor3);
+    color: var(--cor5);}
+    
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto; }
+
+main p {
+ margin: 10px;
+    text-indent: 15px; /*coloca o texto um pouco para tentro*/
+    text-align: justify;
+    line-height: 1.5em; /*Espaço entre linhas*/
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px; /*Só as bordas de baixo*/
+    border-bottom-right-radius: 10px; /*Só as bordas de baixo*/
+    width: 30px;
+}
+
+main img {
+
+    width: 100%;
+}
+
+main img.pequena {
+
+    width: 50%;
+    display: block; /*imagem por padram não e block por isso tem que colocar um display:block;*/
+    margin: auto;
+}
+
+.h {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+
+}
+
+#h {font-size: 1.3em;
+text-align: center;}
+
+footer {background-color: var(--cor5);
+    color: wheat;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    text-align: 10px;
+    font-family: Helvetica;
+
+
+}
+
+ul:hover {
+    cursor: pointer;
+}
