@@ -1,0 +1,82 @@
+t@charse "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;}
+
+html {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+
+   background: black url(back-phone.jpg)no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;}
+
+main {
+width: 70vw;
+height: 40vh;
+border-radius: 10px;
+padding-bottom: 15px;
+padding-top: 1px;
+margin: auto;
+    background-color: rgba(255, 255, 255, 0.795);
+    color: transparent;
+
+}
+
+main > img { 
+
+    display: block;
+    margin: auto;
+    
+}
+
+h2 {
+
+    text-align: center;
+    color: blue;
+}
+
+
+#d {
+margin: auto;
+    display: none;
+
+}
+
+p {
+
+    color:rgb(0, 0, 0);
+    text-indent: 10px;
+    width: 80%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.829);
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 10px;
+    
+}
+
+@media screen and (min-width: 760px){
+
+    #c {
+
+        display: none;
+    }
+
+    #d {
+
+        display: block;
+    }
+
+   body { background: black url(back-tablet.jpg)
+} 
+}

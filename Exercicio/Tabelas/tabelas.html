@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS</title>
+</head>
+<style>
+tbody > tr:nth-child(even) { /*Efeito zebrado*/
+    /*odd = inpar*/
+    /*even = par*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+
+}
+table {
+
+    width: 370px;
+    border-collapse: collapse; /*borda das tabelas*/
+}
+td {
+padding: 8px;
+    border: 1px solid black; }
+
+h1 {
+
+    border: 2px solid black;
+    text-align: center;
+    font-size: 29px;
+    padding: 5px;
+background-image: linear-gradient(rgba(255, 0, 0, 0.582), rgba(0, 0, 255, 0.842), rgba(211, 211, 211, 0.74));
+color: rgb(255, 145, 0);
+}
+
+</style>
+<body>
+
+    <h1>Minha primeira Tabela</h1>
+<!--
+    HIERAQUIA DE TABELAS (simples)
+       TABLE = tabela
+           TABLE ROW = linha de tabela
+              TABLE HEADER = cabeçalho de tabela
+              TABLE DATA = dado de tabela
+-->
+
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td rowspan="4">C3</td>
+        </tr>
+        <tr>
+             <td>A3</td>
+        
+            <td>B3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

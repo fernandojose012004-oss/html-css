@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+
+Em HTML é id = Em CSS é #
+Em HTML é class = Em CSS é .
+
+*/
+
+body {
+    background-color: rgb(126, 247, 6);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+H1 {
+    color: rgb(235, 7, 7);
+
+}
+
+h1#principal {
+
+    text-align: center;
+    color: beige;
+    background-color: blue;
+    border-radius: 20px; /*Aredondamento das pordas*/
+    padding: 3px 3px 3px;
+    font-size: 25px;
+    box-shadow: 3px 4px 4px;
+
+}
+
+h2 {
+    color: rgb(162, 0, 255);
+
+}
+
+h2.avancado {
+     
+    color: beige;
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px 3px 3px;
+    box-shadow: 3px 4px 4px;
+}
+
+p {
+    text-indent: 10px;
+}

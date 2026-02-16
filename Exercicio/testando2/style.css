@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 1px;
+
+}
+
+header h1 {
+
+    text-align: center;
+    background-color: rgb(53, 47, 47);
+    color: beige;
+    padding: 3px;
+    
+}
+
+menu {
+
+    background-color: rgb(88, 75, 75);
+padding-bottom: 5px; 
+display: none;}
+
+menu ul{
+
+    display: block ;
+   color: beige;
+list-style-type: none;
+padding: 5px;
+}
+
+menu a {
+display: block;
+    text-decoration: none;
+    color: rgb(0, 255, 13);
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid beige;
+    border-bottom: 2px solid beige;
+    font-weight: bolder;
+}
+
+section p {
+
+    text-indent: 10px;
+    padding: 10px;
+}
+
+#id {
+
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: beige;
+
+}
+
+#id:hover {
+
+    background-color: beige;
+    color: black;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 650px){
+
+    menu li {
+
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    menu a {
+
+        border: none;
+        background-color: rgb(146, 5, 5);
+        border-radius: 20px;
+    }
+
+    menu a:hover {
+
+        background-color: rgb(70, 218, 33);
+        color: black;
+        transition-duration: 0.2s;
+    }
+    
+}
+
+@media screen and ( max-width: 650px){
+   
+    menu a:hover {
+background-color: rgb(70, 218, 33);
+        color: rgb(0, 0, 0);
+
+    }
+}
