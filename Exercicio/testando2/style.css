@@ -27,7 +27,8 @@ menu {
 
     background-color: rgb(88, 75, 75);
 padding-bottom: 5px; 
-display: none;}
+display: none;
+margin-bottom: 10px;}
 
 menu ul{
 
@@ -52,6 +53,8 @@ section p {
 
     text-indent: 10px;
     padding: 10px;
+
+    
 }
 
 #id {
@@ -69,6 +72,22 @@ section p {
     color: black;
     transition-duration: 0.1s;
     cursor: pointer;
+}
+
+main p {
+
+   max-width: 800px;
+    border: 3px solid rgb(2, 2, 2);
+    display: block;
+    margin: auto;
+    
+}
+
+main {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 10px;
+
 }
 
 @media screen and ( min-width: 650px){
@@ -102,4 +121,18 @@ background-color: rgb(70, 218, 33);
         color: rgb(0, 0, 0);
 
     }
+}
+
+@media screen and (min-width: 700px){
+
+    #id {
+
+        display: none;
+    }
+
+    menu {
+
+        display: block;
+    }
+    
 }
