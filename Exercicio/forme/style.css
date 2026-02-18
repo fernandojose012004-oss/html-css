@@ -30,7 +30,7 @@ section {
 
 #image {
 
-    background:beige url(../Exercicio/testando/back-phone.jpg);
+    background:beige url(back-phone.jpg);
     height: 230px;
     background-size: cover;
     background-position: right center;
