@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
 
@@ -12,8 +14,11 @@
         <div id="image"> </div>
     <form action="">
 <h1 class="l">Login.</h1>
-  <p>Nome: <input type="text" id="nome"></p>
-  <p>Senha: <input type="password" id="senha"></p>
+
+  <p>Nome: <input type="text" id="nome" minlength="4" maxlength="25"><span class="material-icons">person</span>
+</p>
+  <p>Senha: <input type="password" id="senha" minlength="8" maxlength="16"><span class="material-icons">key</span>
+</p>
   <button class="e">Emviar.</button>
 </section>
     </form>
