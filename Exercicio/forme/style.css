@@ -93,10 +93,50 @@ display: block;
         background-position: right center;
     }
 
-    form {
+ form {
 
         float: right;
         width: 50%;
     }
     
    }
+
+@media screen and (min-width: 992px) {
+
+    #login {
+
+        width: 990px;
+    }
+
+    #image {
+
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    form {
+
+        float: left;
+        width: 50%;
+        background-image: linear-gradient(40deg,beige, blue);
+        height: 100%;
+
+
+    }
+
+    .l {
+
+        color:rgba(229, 255, 0, 0.979);
+    }
+
+    p {
+
+        text-indent: 50px;
+    }
+
+    .material-icons {
+
+    position: relative;
+    left: -76px; } 
+}
