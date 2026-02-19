@@ -12,7 +12,7 @@ section {
     width: 300px;
     height: 500px;
     border-radius: 10px;
-    
+    box-shadow: 2px 3px 2px 2px rgb(22, 22, 22);
 
 }
 
@@ -66,17 +66,30 @@ display: block;
 
     .material-icons {
 
-    position: relative;
-    left: -36px;
-    top: 8px;
-    color: rgb(255, 115, 0);
+position: relative;
+top: 8px;
+left: -36px;
+    color: rgb(41, 4, 252);
    }
 
    input {
 
-    border: 2px solid blue;
-    height: 23px;
+    border: 2px solid rgb(255, 30, 0);
+    height: 25px;
    }
+
+   .com {
+
+    background-color: rgba(217, 255, 0, 0.747);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 0.1px;
+   }
+
+button {
+position: relative;
+top: 10px;
+}
 
    @media screen and (min-width: 768px) and ( max-width: 992px){
 
@@ -84,6 +97,13 @@ display: block;
 
         width: 90vw;
     }
+
+    .material-icons {
+
+position: relative;
+top: 8px;
+left: -37px; 
+color: rgb(0, 255, 55);}
 
     #image {
         float: left;
@@ -107,6 +127,13 @@ display: block;
 
         width: 990px;
     }
+
+    .material-icons {
+
+position: relative;
+top: 8px;
+left: 200px; 
+color: rgb(255, 0, 0);}
 
     #image {
 
