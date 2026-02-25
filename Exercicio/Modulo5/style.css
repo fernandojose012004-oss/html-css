@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa {
+
+    background-color: red;
+    display: flex; /*Usado no Pai da caixa
+    obs: não costumase utilizar medidas de largura e altura no fex box.*/
+    height: 100px;
+    flex-direction: column; /*controla a direção dos eixos "row" padrão*/
+    flex-wrap: wrap;
+
+}
+div {
+
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    /*flex: auto; /Usado no filho pra deixar adaptado a caixa*/
+}
